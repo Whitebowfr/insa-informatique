@@ -74,14 +74,15 @@ __**Procédure :**__
 
 Cette méthode marche très bien. Sachez juste que partager votre abonnement est techniquement interdit par Quantic, mais ils ne peuvent pas le savoir.
 Je ne connais personne qui s'est fait prendre, et je ne pense pas que ça arrivera. En revanche, vous pouvez recevoir un mail si votre taux de téléchargement est anormalement élevé.
-Un de mes amis a reçu ce mail il y a quelques années après avoir leech et seedé 4 To en un mois (respect franchement).`);
-            sendMessage(message.channel_id, `**Aparté sur la Quantic Box**
+Un de mes amis a reçu ce mail il y a quelques années après avoir leech et seedé 4 To en un mois (respect franchement).`).then(() => {
+    sendMessage(message.channel_id, `**Aparté sur la Quantic Box**
 La Quantic Box est un routeur Wi-Fi vendu 20€ par Quantic, qui permet juste d'avoir accès au Wi-Fi.
 Si vous voulez mon avis, c'est une arnaque monumentale, c'est juste un routeur chinois obsolète à 10€ qu'ils ont castré pour pas que vous puissez le contrôler.
 Donc si quelqu'un veut se connecter à votre réseau, il lui faudra un compte Quantic quand même. (et donc payer 120€/an)
 Par pitié ne l'achetez pas, en plus ils mettent 2 mois à les livrer, vous pouvez trouver des routeurs à 15€ sur Amazon (Xiaomi, TP-Link, Asus, Netgear, etc.) qui seront bien mieux.
             
 __**Si vous avez des questions, n'hésitez pas à mentionner <@446685950383226886>**__`)
+})
                 return;
             default:
                 return;
